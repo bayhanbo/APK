@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/menu_checked_color"
+    tools:context="newsday.zxsc.com.newsday.activity.AddTitleActivity">
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar_add"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/btn_bottom"
+    ></android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:padding="10dp"
+        android:text="当前标签"/>
+    <newsday.zxsc.com.newsday.view.FlowLayout
+        android:id="@+id/flow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/white"
+        ></newsday.zxsc.com.newsday.view.FlowLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:padding="10dp"
+        android:text="添加兴趣标签"/>
+    <ListView
+        android:id="@+id/lv_add_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_weight="1"
+        ></ListView>
+</LinearLayout>

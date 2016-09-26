@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="newsday.zxsc.com.newsday.activity.ShowWebViewActivity">
+   <android.support.v7.widget.Toolbar
+       android:id="@+id/toolbar_web"
+       android:layout_width="match_parent"
+       android:layout_height="?attr/actionBarSize"
+       android:background="@color/btn_bottom"
+       >
+      <!--<android.support.design.widget.CoordinatorLayout-->
+          <!--android:id="@+id/cl"-->
+          <!--android:layout_width="wrap_content"-->
+          <!--android:layout_height="wrap_content"></android.support.design.widget.CoordinatorLayout>-->
+      <ImageView
+          android:id="@+id/iv_collect"
+          android:background="@drawable/toolbar_collect_bg"
+          android:layout_marginLeft="190dp"
+          android:onClick="onClick"
+          android:layout_width="25dp"
+          android:layout_height="25dp" />
+   </android.support.v7.widget.Toolbar>
+   <ProgressBar
+       android:id="@+id/pb_progress"
+       android:layout_width="match_parent"
+       android:layout_height="5dp"
+       android:max="100"
+       android:progress="10"
+       android:progressDrawable="@drawable/progress_bg"
+       style="?android:attr/progressBarStyleHorizontal"
+       >
+   </ProgressBar>
+   <WebView
+       android:id="@+id/show_webView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"></WebView>
+</LinearLayout>

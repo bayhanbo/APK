@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="newsday.zxsc.com.newsday.fragment.HotFragment">
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar_hot"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="@color/btn_bottom"></android.support.v7.widget.Toolbar>-->
+    <!--<android.support.v4.widget.SwipeRefreshLayout-->
+        <!--android:id="@+id/srl_hot_refreshLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/rv_hot_recyclerView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>-->
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+
+    <WebView
+        android:id="@+id/wv_hot_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+    <ImageView
+        android:id="@+id/iv_hot_return"
+        android:src="@drawable/ssdk_back_arr"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp" />
+</RelativeLayout>

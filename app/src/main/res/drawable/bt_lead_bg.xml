@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@drawable/btn_float_white_pressed"
+    android:state_pressed="true">
+    <!--<layer-list>-->
+        <!--<shape>-->
+            <!--<corners android:radius="5dp"></corners>-->
+            <!--<solid android:color="@color/lead_bt"></solid>-->
+            <!--<corners android:radius="100dp">-->
+            <!--</corners>-->
+        <!--</shape>-->
+    <!--</layer-list>-->
+</item>
+<item android:drawable="@color/lead_bg_cm">
+</item>
+</selector>

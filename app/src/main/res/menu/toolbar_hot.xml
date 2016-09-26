@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_add"
+        android:title="增加"
+        android:icon="@drawable/zengjia01"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+    <item
+        android:id="@+id/menu_remove"
+        android:title="删除"
+        android:icon="@drawable/shanchu01"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+    <group>
+    <item
+        android:id="@+id/menu_item_vertical"
+        android:title="竖直模式"
+        ></item>
+    <item
+        android:id="@+id/menu_item_horizontal"
+        android:title="水平模式"
+        ></item>
+    <item
+        android:id="@+id/menu_item_griddingV"
+        android:title="网格竖直模式"
+        ></item>
+    <item
+        android:id="@+id/menu_item_griddingH"
+        android:title="网格水平模式"
+        ></item>
+    </group>
+</menu>
